@@ -27,7 +27,7 @@ int getInputInt(int counter)
         return input;
     }
 }
-//ask for a guess up to 7 times and compare to randomNumber
+//ask for a guess up to 'chances' number of times and compare to randomNumber
 bool guessAndCompare(int randomNumber, int chances)
 {
     for(int counter{1}; counter <= chances; ++counter)
